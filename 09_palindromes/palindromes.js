@@ -21,6 +21,5 @@ const removeFromArray = function(array, ...args) {
     }
     return array;
 };
-palindromes("A car, a man, a maraca.")
 // Do not edit below this line
 module.exports = palindromes;
