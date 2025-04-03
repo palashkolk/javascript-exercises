@@ -2,7 +2,6 @@ const palindromes = function (string) {
     const stringArray=removeFromArray(string.toLowerCase().split(""), "!", ",", ".", " ", "-");
     const cleanedString=stringArray.join("");
     const reverseString=stringArray.reverse().join("");
-    console.log(reverseString, cleanedString)
     if (reverseString==cleanedString){
         return true;
     }else{
